@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     
+   }
+
+   #header-navbar{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF ;
+  justify-content: left;
+  box-shadow: 0 0 4px 0 black;
+  
+   }
+
+   #BRAND-ARBELL-DIV{
+   
+    width: 20%;
+    height: 100%;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+    overflow: hidden; /* Evita que la imagen sobresalga si es más grande */
+   }
+
+
+#arbell-img{
+    
+  width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+  height: 100%; /* La imagen ocupará toda la altura del contenedor */
+  object-fit: contain; /* La imagen se ajusta manteniendo su proporción */
+}
+
+
+
+.container-md{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  margin: 0  0 0 5%;
+   padding: 0;
+ 
+}
+
+
+
+
+p{
+margin-top: 10px;
+}
+
+
+#div-lupa{
+  width: 30px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+#img-lupa{
+width: 100%;
+height: 100%;
+object-fit: contain;
+}
+
+#items-navbar{
+  display: flex; /* Para colocar los <li> en horizontal */
+  list-style: none; /* Quitar los puntos de la lista */
+  padding: 0;
+  margin: 0 0 0 3%;
+ justify-content: space-around;
+ width:30%;
+}
+
+li{
+ 
+    display: flex; /* Hace que el <li> se ajuste al contenido */
+    align-items: center; /* Centra los elementos dentro */
+    justify-content: center;
+    margin: -2%;
+  
+
+}
+
+a{
+  display: flex; /* Hace que el <a> contenga bien la imagen */
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Ajusta el ancho del enlace */
+    height: 50px; /* Ajusta la altura del enlace */
+}
+
+
+.img-items {
+  width: 100%; /* La imagen se ajusta al tamaño del enlace */
+  height: 100%;
+  object-fit: contain; /* Ajusta la imagen sin deformarla */
+
+}
+
+
+
+  #first-div-main{
+    width: 100%;
+    height: 65vh;
+background-color: blueviolet;
+  }
