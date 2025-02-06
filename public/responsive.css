@@ -1,0 +1,234 @@
+#menu-responsive{
+   display: flex;
+   position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #EFEAE6 ;
+    flex-direction: column;
+     display: none;
+
+     box-shadow: 2px 2px 2px black;
+}
+
+
+
+.opciones-menu-responsive{
+   display: flex;
+   width: 100%;
+   height: 18%;
+   border-top: 1px  #000000 solid;
+   border-bottom:1px #000000 solid;
+   align-items: center;
+
+
+}
+
+#contenedor-img-equis{
+height: 15%;
+border-bottom: 0;
+border-top: 0;
+justify-content: flex-end;
+}
+
+.logo-de-menu-responsive{
+
+width: 70px;
+height: 70px;
+
+}
+
+@media(min-width: 300px) and (max-width: 499px){
+   #items-navbar{
+      justify-content: center;
+   }
+
+
+   .icono{
+       display: none;
+   }
+
+
+   #contenedor-img-menu{
+       display: flex;
+       width: 50px;
+
+
+   }
+
+#icono-responsive{
+   display: flex;
+
+   
+}
+
+
+#img-menu{
+   width: 100%; 
+ height: 100%;
+ object-fit: contain;
+}
+
+
+
+
+#img-cruz{
+   width:50px;
+   height: 50px;
+   object-fit: contain;
+   margin-top: 10px;
+   margin-right: 10px;
+
+ 
+}
+
+   #first-div-main{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      height: 100%;
+      align-items: center;
+    }
+   
+     #banner{
+       width: 100%;
+       height: 40%;
+    object-fit:fill;
+     }
+
+}
+
+
+@media(min-width: 500px) and (max-width: 699px)  {
+    
+    #items-navbar{
+       justify-content: center;
+    }
+
+
+    .icono{
+        display: none;
+    }
+
+
+    #contenedor-img-menu{
+        display: flex;
+        width: 50px;
+
+
+    }
+
+ #icono-responsive{
+    display: flex;
+
+    
+ }
+ 
+
+ #img-menu{
+    width: 100%; 
+  height: 100%;
+  object-fit: contain;
+ }
+
+
+
+ 
+ #img-cruz{
+    width:50px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-right: 10px;
+
+  
+ }
+
+
+
+ #first-div-main{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   height: 100%;
+   align-items: center;
+ }
+
+  #banner{
+    width: 100%;
+    height: 40%;
+ object-fit:fill;
+  }
+
+ }
+
+
+
+
+
+
+@media(min-width: 700px) and (max-width: 900px) {
+
+   #items-navbar{
+      justify-content: center;
+   }
+
+
+   .icono{
+       display: none;
+   }
+
+
+   #contenedor-img-menu{
+       display: flex;
+       width: 50px;
+
+
+
+   }
+
+#icono-responsive{
+   display: flex;
+
+   
+}
+
+
+#img-menu{
+   width: 100%; 
+ height: 100%;
+ object-fit: contain; 
+}
+
+
+
+#img-cruz{
+   width:50px;
+   height: 50px;
+   object-fit: contain;
+   margin-top: 10px;
+   margin-right: 10px;
+
+ 
+}
+
+  
+    #first-div-main{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+    }
+   
+
+    
+     #banner{
+       width: 100%;
+       height: 40%;
+    object-fit:fill;
+}
+
+
+   
+}
