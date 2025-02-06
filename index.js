@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'docs')));
 
 // Servir el archivo index.html en la ruta raíz "/"
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'docs', 'index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Iniciar el servidor
