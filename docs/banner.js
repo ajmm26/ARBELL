@@ -2,7 +2,7 @@ const banner= document.getElementById("first-div-main");
 const botonIzq= document.getElementById("div-button-left");
 const botonDerch= document.getElementById("div-button-right");
 const imgBanner= document.getElementById("banner");
-let imagenes=["../img/1.jpg","../img/2.jpg","../img/3.jpg"]
+let imagenes=["/ARBELL/docs/img/1.jpg","/ARBELL/docs/img/2.jpg","/ARBELL/docs/img/3.jpg"]
 let i=0;
 let intervalo;
 

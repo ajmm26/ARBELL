@@ -48,22 +48,6 @@ function crearSectorCompra(){
     iconoCruz.addEventListener("click",()=>{
         divMenuResponsive.style.display="none";
     })    
-    
-    
-
-    const img = document.getElementById("miImagen");
-
-    function obtenerDimensiones() {
-      const rect = imagenDeBanner.getBoundingClientRect();
-      console.log(`Ancho: ${rect.width}px, Alto: ${rect.height}px`);
-      divButton.style.height=rect.height;
-    }
-  
-    // Detectar cambios de tamaño en la pantalla
-    window.addEventListener("resize", obtenerDimensiones);
-  
-    // Llamar una vez al inicio para obtener el tamaño inicial
-    obtenerDimensiones();
 
 
 
@@ -71,15 +55,15 @@ function crearSectorCompra(){
         const banner = document.getElementById("banner");
         const botones = document.getElementsByClassName("div-button");
       
-        // Obtener la altura actual de la imagen
+        
         const alturaBanner = banner.clientHeight;
       
-        // Asignar la misma altura a los div de botones
+       
         for (let boton of botones) {
           boton.style.height = alturaBanner + "px";
         }
       }
       
-      // Ejecutar al cargar la página y al cambiar el tamaño de la ventana
+      
       window.addEventListener("load", ajustarAltura);
       window.addEventListener("resize", ajustarAltura);
