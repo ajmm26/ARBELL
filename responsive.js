@@ -9,7 +9,7 @@ const divCompra=document.createElement('div');
 const parrafoCompras=document.createElement('p');
 const parrafoLog=document.createElement('p');
 const imagenDeBanner=document.getElementById("banner");
-const divButton=document.getElementById('div-button-right');
+const botones = document.getElementsByClassName("div-button");
 
 
 
@@ -40,6 +40,9 @@ function crearSectorCompra(){
 
     iconoMenuResponsive.addEventListener("click",()=>{
         divMenuResponsive.style.display="flex";
+        for(let boton of botones){
+          boton.style.display="none"
+        }
         crearSectorLogMenu();
         crearSectorCompra();
     })
@@ -53,7 +56,6 @@ function crearSectorCompra(){
 
     function ajustarAltura() {
         const banner = document.getElementById("banner");
-        const botones = document.getElementsByClassName("div-button");
       
         
         const alturaBanner = banner.clientHeight;
