@@ -16,7 +16,7 @@ const divButton=document.getElementById('div-button-right');
 function crearSectorLogMenu(){
 hijos[1].appendChild(log);
 log.classList.add("logo-de-menu-responsive")
-log.src="../img/log.png"
+log.src="img/log.png"
 hijos[1].appendChild(divLog);
 divLog.classList.add("div-parrafos-menu");
 divLog.appendChild(parrafoLog);
@@ -28,7 +28,7 @@ parrafoLog.innerText="INICIAR SESION";
 function crearSectorCompra(){
     hijos[2].appendChild(bolsa);
     bolsa.classList.add("logo-de-menu-responsive")
-    bolsa.src="../img/bolsa-compras.png"
+    bolsa.src="img/bolsa-compras.png"
     hijos[2].appendChild(divCompra);
     divCompra.classList.add("div-parrafos-menu");
     divCompra.appendChild(parrafoCompras);
